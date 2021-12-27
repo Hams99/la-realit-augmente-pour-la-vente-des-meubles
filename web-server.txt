@@ -1,0 +1,14 @@
+npm -v
+Avec npm installé, installez local-web-server et localtunnel :
+
+npm install -g local-web-server
+npm install -g localtunnel
+
+lancez local-web-server depuis votre terminal avec :
+
+ws
+
+Dans la commande suivante, « XR-2020 » est le domaine personnalisé, que vous devez modifier.
+Soyez créatif, ou cela peut prendre quelques essais pour obtenir un domaine disponible.
+
+lt --port 8000 --subdomain XR-2020
